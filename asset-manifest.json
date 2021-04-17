@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/simple-score/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/simple-score/static/js/main.b5968d91.chunk.js",
+    "main.js.map": "/simple-score/static/js/main.b5968d91.chunk.js.map",
+    "runtime-main.js": "/simple-score/static/js/runtime-main.e4deed4e.js",
+    "runtime-main.js.map": "/simple-score/static/js/runtime-main.e4deed4e.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/simple-score/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.05014973.chunk.js": "/simple-score/static/js/2.05014973.chunk.js",
+    "static/js/2.05014973.chunk.js.map": "/simple-score/static/js/2.05014973.chunk.js.map",
+    "static/js/3.5fe3ef1a.chunk.js": "/simple-score/static/js/3.5fe3ef1a.chunk.js",
+    "static/js/3.5fe3ef1a.chunk.js.map": "/simple-score/static/js/3.5fe3ef1a.chunk.js.map",
+    "index.html": "/simple-score/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/simple-score/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.ea1455b2.chunk.css.map": "/simple-score/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.05014973.chunk.js.LICENSE.txt": "/simple-score/static/js/2.05014973.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4deed4e.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.05014973.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.b5968d91.chunk.js"
+  ]
+}
