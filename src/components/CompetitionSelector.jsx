@@ -2,7 +2,6 @@ import React from "react";
 import { Dropdown, Row, Col, Table, DropdownButton } from "react-bootstrap";
 
 const CompetitionSelector = (props) => {
-  let test = props.selectedMatch.matchConfigurationName;
   const handleMatchSelect = (e) => {
     props.handleMatchSelect(e);
   };

@@ -14,7 +14,7 @@ function App() {
     <Router history={history}>
       <Layout>
         <Switch>
-          <Route path="/" exact component={Card} />
+          <Route path={process.env.PUBLIC_URL + "/"} exact component={Card} />
         </Switch>
       </Layout>
     </Router>

@@ -4,9 +4,6 @@ import Scorecard from "../components/Scorecard";
 import { matchResult } from "../models/MatchResult";
 
 const Card = (props) => {
-  const [selectedComp, setSelectedComp] = useState({
-    competitionName: "Select Competition",
-  });
   const [selectedMatch, setSelectedMatch] = useState({
     matchConfigurationName: "Select Match",
   });
@@ -18,7 +15,7 @@ const Card = (props) => {
   }, []);
 
   const getData = () => {
-    fetch("MatchConfiguration.json", {
+    fetch(process.env.PUBLIC_URL + "/" + "MatchConfiguration.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
