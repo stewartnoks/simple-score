@@ -15,7 +15,10 @@ const CompetitionSelector = (props) => {
               <th className="text-center">
                 <DropdownButton
                   variant="primary"
-                  title={props.selectedMatch.matchConfigurationName}
+                  title={props.selectedMatch.matchConfigurationName.substring(
+                    0,
+                    30
+                  )}
                   id="dropdown-basic"
                   onSelect={handleMatchSelect}
                 >
